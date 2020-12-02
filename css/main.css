@@ -9,12 +9,15 @@
     src: url("./../fonts/Courgette-Regular.ttf");
     font-weight: normal;
 }
-#header {
-    width: 100%;
-    background-image: url("./../img/header.jpg");
-    background-attachment: fixed, scroll;
-    background-repeat: no-repeat, repeat-y;
-    background-size: cover;
+
+h5, h2, span{
+    font-family:Oswald;
+}
+h4{
+    margin: 15px;
+    padding: 10px;
+    font-family: Courgette, sans-serif;
+    font-weight:bold;
 }
 
 .footer {
@@ -22,4 +25,20 @@
   color:#FFFFFF ;
   margin-top: 20px;
   padding: 30px;
+}
+.primary-white{
+    color:#FFFFFF;
+}
+.secondary-black{
+    color:#000000;
+    background-color: #FFFFFF;
+    padding: 3px;
+}
+ul li {
+    list-style: none;
+    text-decoration-line: underline;
+}
+ul li {
+   
+   
 }
