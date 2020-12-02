@@ -1,0 +1,21 @@
+
+/* #header{
+    width: 100%;
+    background-image: url("./../img/team/team.jpg");
+    background-attachment: fixed, scroll;
+    background-repeat: no-repeat, repeat-y;
+    background-size: cover;
+} */
+
+#team-header{
+    width: 100%;
+}
+.team-photo{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 10px;
+}
+/* .primary-team{
+    text-align: center;
+} */
