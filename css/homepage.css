@@ -1,8 +1,26 @@
 
-#header {
-    width: 100%;
-    background-image: url("./../img/header.jpg");
-    background-attachment: fixed, scroll;
-    background-repeat: no-repeat, repeat-y;
+header{
+    background: linear-gradient(336deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7) 70.71%), url("./../img/header.jpg");
+   
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
     background-size: cover;
+    height: 550px;
+   color: #FFFFFF;
+}
+
+.logo{
+    width: 100px;
+   margin-top: 150px;
+}
+.primary-white{
+    color:#FFFFFF ;
+}
+
+nav{
+    border-bottom: 2px solid white;
+}
+.cuisine{
+    text-align: center;
+    color: #FFFFFF;
 }
