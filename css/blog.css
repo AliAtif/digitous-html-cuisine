@@ -1,7 +1,14 @@
 
 #header{
-    background-image: url("./.././img/articles/suzette/suzette-header.jpg");
+    background: linear-gradient(336deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7) 70.71%),  url("./.././img/articles/suzette/suzette-header.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 560px;
 }
+
+.team-photo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    /* margin: 10px; */
+}   
