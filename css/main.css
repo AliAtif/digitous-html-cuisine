@@ -10,31 +10,59 @@
     font-weight: normal;
 }
 
-
-h5, h2, span{
-    font-family:Oswald;
+h5,
+h2,
+h1,
+span {
+    font-family: Oswald;
 }
-h4{
+
+h4 {
     margin: 15px;
     padding: 10px;
     font-family: Courgette, sans-serif;
-    font-weight:bold;
+    font-weight: bold;
+}
+
+#side-bar button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+#side-bar ul li {
+    margin: 0 4px;
+}
+
+#side-bar ul li a {
+    color: black;
+}
+
+#side-bar ul li a:hover {
+    color: blue;
 }
 
 .footer {
-  background-color: #000000;
-  color:#FFFFFF ;
-  margin-top: 20px;
-  padding: 30px;
+    background-color: #000000;
+    color: #FFFFFF;
+    margin-top: 20px;
+    padding: 30px;
 }
-.primary-white{
-    color:#FFFFFF;
+
+.primary-white {
+    color: #FFFFFF;
 }
-.secondary-black{
-    color:#000000;
+
+.secondary-black {
+    color: #000000;
     background-color: #FFFFFF;
     padding: 3px;
 }
+
+.footer ul {
+    padding-left: 0;
+}
+
 ul li {
     list-style: none;
     text-decoration-line: underline;

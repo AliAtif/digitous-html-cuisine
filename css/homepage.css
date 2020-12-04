@@ -1,39 +1,44 @@
-
-header{
-    background: linear-gradient(336deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7) 70.71%), url("./../img/header.jpg");
+header {
+    background: linear-gradient(336deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) 70.71%), url(../img/header.jpg);
     /* background-attachment: fixed; */
     background-repeat: no-repeat;
     background-size: cover;
     height: 550px;
-   color: #FFFFFF;
+    color: #FFFFFF;
 }
 
-.logo{
+.logo {
     width: 100px;
-   margin-top: 150px;
-}
-.primary-white{
-    color:#FFFFFF ;
+    margin-top: 150px;
 }
 
-nav{
+.primary-white {
+    color: #FFFFFF;
+}
+
+nav {
     border-bottom: 2px solid white;
 }
-.cuisine{
+
+.cuisine {
     text-align: center;
     color: #FFFFFF;
 }
-#side-bar button{
+
+#side-bar button {
     background-color: white;
     color: black;
     border: 1px solid black;
 }
-#side-bar ul li{
-    margin:0 4px;
+
+#side-bar ul li {
+    margin: 0 4px;
 }
-#side-bar ul li a{
+
+#side-bar ul li a {
     color: black;
 }
-#side-bar ul li a:hover{
-    color:blue;
+
+#side-bar ul li a:hover {
+    color: blue;
 }
