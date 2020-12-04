@@ -1,0 +1,16 @@
+header {
+    background: linear-gradient(336deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) 70.71%), url(../img/header.jpg);
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: #FFFFFF;
+}
+
+nav {
+    border-bottom: 2px solid white;
+}
+
+#contact-header {
+    margin-top: 80px;
+}
